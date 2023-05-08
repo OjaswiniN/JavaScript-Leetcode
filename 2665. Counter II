@@ -9,8 +9,7 @@ var createCounter = function(init) {
         increment:()=> ++presentCount,
         decrement:()=> --presentCount,
         reset:()=> presentCount = init,
-    }
-    
+    }   
 };
 
 /**
